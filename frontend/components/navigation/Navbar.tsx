@@ -11,7 +11,7 @@ export default function Navbar() {
   const currentPath = usePathname()
 
   return (
-    <div className="fixed top-0 left-0 flex w-full justify-between py-8 px-[4%] bg-gradient-to-b from-black via-black/30 to-transparent z-20">
+    <div className="fixed top-0 left-0 flex w-full justify-between py-8 px-[4%] bg-gradient-to-b from-black via-black/30 to-transparent z-50">
       <div className="flex items-center">
         <Icons name="NetflixLogo" className="h-[38px] w-auto" />
         <ul className="flex items-center gap-8 ml-8">

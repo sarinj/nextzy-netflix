@@ -4,16 +4,14 @@ import Image from 'next/image'
 
 export default function BillBoard() {
   return (
-    <>
-      <div className="absolute top-0 left-0 w-full z-2">
-        <Image
-          alt="cover"
-          src="/images/billboardImage.png"
-          width={600}
-          height={400}
-          className="w-full h-auto object-cover"
-        />
-      </div>
+    <div className="absolute top-0 left-0 w-full z-2">
+      <Image
+        alt="cover"
+        src="/images/billboardImage.png"
+        width={600}
+        height={400}
+        className="w-full h-auto object-cover"
+      />
       <div className="absolute bottom-[20%] px-[4%] z-10 flex flex-col gap-8">
         <div className="flex items-center gap-4">
           <span>
@@ -44,6 +42,6 @@ export default function BillBoard() {
           </Button>
         </div>
       </div>
-    </>
+    </div>
   )
 }

@@ -56,7 +56,10 @@ function Button({
   return (
     <Comp
       data-slot="button"
-      className={cn('flex', buttonVariants({ variant, size, className }))}
+      className={cn(
+        'flex cursor-pointer',
+        buttonVariants({ variant, size, className })
+      )}
       {...props}
     >
       {iconName && (

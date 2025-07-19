@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <div className="relative">
       <BillBoard />
-      <div className="relative z-20 pt-[calc(100vh-50px)] px-[4%]">
+      <div className="relative z-4 pt-[calc(100vh+8rem)] pl-[4%]">
         <PopularList />
       </div>
     </div>
